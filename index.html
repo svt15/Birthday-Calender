@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Birthday Calender</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="htmlElements()">
+    <script src="script.js"></script>
+        <h1>Birthday Calender</h1>
+
+    <div class="calender-container">
+        <div class="card">
+            <div class="card-header">Sun</div>
+            <div class="birthdays sunday-b">
+                <div class="row name-card sunday"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">Mon</div>
+            <div class="birthdays monday-b">
+                <div class="row name-card monday"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">Tue</div>
+            <div class="birthdays tuesday-b">
+                <div class="row name-card tuesday"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">Wed</div>
+            <div class="birthdays wednesday-b">
+                <div class="row name-card wednesday"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">Thurs</div>
+            <div class="birthdays thursday-b">
+                <div class="row name-card thursday"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">Fri</div>
+            <div class="birthdays friday-b">
+                <div class="row name-card friday"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">Sat</div>
+            <div class="birthdays saturday-b">
+                <div class="row name-card saturday"></div>
+            </div>
+        </div>
+    </div>
+
+    <form class="form">
+        <textarea name="birthdays" rows="10" cols="60" id="json-textarea" class="textArea"></textarea>
+        <input type="number" name="year" id="year" placeholder="Year" aria-label="Year" aria-describedby="year">
+        <button type="button" class="btn btn-primary" onclick="update(document.getElementById('year').value, document.getElementById('json-textarea').value)">Update</button>
+      </form>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.calender-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.card{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    width: 182px;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-header{
+    text-align: right;
+    background-color: #43437d;
+    border-radius: 5px 5px 0 0;
+    padding: 6%;
+    font-weight: 600;
+    color: #ffffffcf
+}
+
+.birthdays{
+    width: 180px;
+    min-height: 168px;
+}
+
+.name-card{
+    margin: 0;
+}
+
+.name{
+    color: white;
+    padding: 16px;
+    text-align: center
+}
+ 
+.form{
+    margin: 40px 6px;
+}
+
+.textArea{
+    width: 60%
+}
+
+.four{
+    height: 84px;
+    min-width: 90px;
+    padding: 28px;
+}
+
+.one{
+    height: 168px;
+    min-width: 180px;
+    padding: 65px;
+}
+
+.color0{
+    background-color: #00baad
+}
+
+.color1{
+background-color: #2a7b9b
+}
+
+.color2{
+background-color: #3d3d6b
+}
+
+.color3{
+background-color: #511849
+}
+.color4{
+background-color: #900c3f
+}
+
+.color5{
+background-color: #c70039
+}
+
+.color6{
+background-color: #ff5733
+}
+
+.color7{
+background-color: #ff8d1a
+}
+
+.color8{
+background-color: #ffc300
+}
+
+.color9{
+background-color: #eddd53
+}
+
+.color10{
+background-color: #add45c
+}
+
+.color11{
+background-color: #57c785
+}
